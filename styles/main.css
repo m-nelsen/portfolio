@@ -24,15 +24,14 @@ main h2 {
   font-size: clamp(1rem, 3vw + 0.25rem, 5rem);
 }
 main ul {
-  margin-top: clamp(6rem, 12vh, 10rem);
+  margin-top: clamp(2rem, 2vh, 10rem);
   list-style: none;
   font-size: clamp(1rem, 2vw + 0.25rem, 2rem);
   padding-left: 1.5rem;
-  border-left: clamp(0.25rem, 1vw + 0.15rem, 0.75rem) solid rgba(255, 0, 53, 0.8);
-  border-radius: 18px;
+  border-left: 0.4rem solid rgba(255, 0, 53, 0.8);
 }
 main ul li {
-  margin-top: 25px;
+  margin-top: clamp(1px, 1vh, 25px);
 }
 main ul li a {
   color: #fff;
