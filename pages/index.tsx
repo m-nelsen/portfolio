@@ -14,7 +14,7 @@ export default function Home() {
     },
   ];
 
-  const svgContainer = Array(10).fill({});
+  const svgContainer = Array(7).fill({});
 
   return (
     <>
