@@ -6,7 +6,7 @@ const fontRobotoRegular = localFont({ src: "../fonts/Roboto-Light.ttf" });
 
 export default function Home() {
   const links = [
-    { href: "", description: "Resume" },
+    { href: "/resume.pdf", description: "Resume" },
     { href: "https://github.com/m-nelsen", description: "GitHub" },
     {
       href: "https://www.linkedin.com/in/matthew-nelsen/",
